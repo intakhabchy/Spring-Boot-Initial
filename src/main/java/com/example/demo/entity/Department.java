@@ -17,7 +17,7 @@ public class Department {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    public Long depaartmentId;
+    public Long departmentId;
 
     @NotBlank(message = "Department name is mandatory")
     public String departmentName;
